@@ -1,0 +1,86 @@
+body{
+font-family: 'Exo', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Exo', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*header-section cod start*/
+.header-section{
+	width: 100%;
+	background: url("../img/header.png") center top no-repeat;
+	background-size: cover;
+}
+.inner-header {
+    width: 100%;
+    padding: 80px 0px;
+    margin: 120px 0px;
+    text-align: center;
+}
+.inner-header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #282828;
+    letter-spacing: 4px;
+}
+.icon{
+	padding: 20px 0px;
+}
+.inner-header .btn-info {
+    padding: 10px 52px;
+    text-transform: uppercase;
+    margin: 5px 0px;
+    background: #ff6d6d;
+    border: 1px solid #ff6d6d;
+    color: #fff;
+    transition: 1s ease-in;
+    font-size: 14px;
+} 
+.inner-header .btn-info:hover,.inner-header .btn-info:focus{
+	background: transparent;
+	color: #ff6d6d; 
+	
+}
+.inner-header p{
+	font-size: 14px;
+	font-weight: 400px;
+	color: #919192;
+	padding: 10px 0px;
+}
+.title{
+	padding: 100px 0px;
+}
+.title h5 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 0px;
+    color: #ff6d6d;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.title h2 {
+    font-size: 31px;
+    color: #282828;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 1.5;
+}
+.title h2 span{
+	color:#ff6d6d;
+}
+.title p{
+	font-size: 16px;
+	
+}
+
+
+
+
+
+
+
+
