@@ -62,6 +62,9 @@ a, a:hover{
     letter-spacing: 5px;
     text-transform: uppercase;
 }
+.banner{
+	width: 100%;
+}
 .title h2 {
     font-size: 31px;
     color: #282828;
@@ -72,11 +75,155 @@ a, a:hover{
 .title h2 span{
 	color:#ff6d6d;
 }
-.title p{
-	font-size: 16px;
-	
+.title p {
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 3px;
+    color: #8a8a8a;
+}
+.spase p{
+    font-size: 14px;
+    line-height: 2;
+    letter-spacing: 3px;
+    color: #8a8a8a;
+    margin: 20px 0px;
 }
 
+
+.features{
+	width: 100%;
+	background: url("../img/bg.png") center top no-repeat;
+    background-size: cover;
+
+}
+.features .title{
+	text-align: center;
+}
+.features .title h2 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+.inner-features{
+	width: 100%;
+}
+.inner-features img {
+	padding: 20px 0px;
+    margin: 0px 127px;
+}
+.inner-features h4 {
+    text-align: center;
+    font-size: 18px;
+    color: #282828;
+}
+.inner-features p {
+    text-align: center;
+    color: #858584;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+
+.about{
+	width: 100%;
+	background: url("../img/d.png") center top no-repeat;
+	background-size: cover;
+}
+.about-us {
+    padding: 100px 0px;
+}
+.about .about-us img {
+    width: 600px;
+    height: 383px;
+}
+.about .about-us h2{
+
+}
+.about .about-us p{
+	font-size: 14px;
+}
+
+.about-start{
+	width: 100%;
+	background: url("../img/bg2.png") center top no-repeat;
+	background-size: cover;
+}
+.inner-start{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-start img {
+    margin: 0px 127px;
+    padding: 20px 0px;
+}
+.inner-start h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.inner-start h5 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ff6d6d;
+    text-align: center;
+}
+.inner-start p {
+    padding: 0px 48px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #8f9093;
+    text-align: center;
+}
+.logo img {
+    text-align: center;
+    color: green;
+    margin: 0px 50px;
+    font-color: #fff;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+  .inner-header {
+    padding: 0 !important;
+  }
+  .about .about-us img {
+    width: 200px !important;
+    height: 83px !important;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .inner-header {
+    padding: 0 !important;
+  }
+  .about .about-us img {
+    width: 200px !important;
+    height: 83px !important;
+}
+}
+@media only screen and (max-width: 320px) {
+  .inner-header {
+    padding: 0 !important;
+  }
+  .about .about-us img {
+    width: 200px !important;
+    height: 83px !important;
+}
+}
+@media only screen and (max-width: 414px) {
+  .inner-header {
+    padding: 0 !important;
+  }
+  .about .about-us img {
+    width: 200px !important;
+    height: 83px !important;
+}
+}
 
 
 
